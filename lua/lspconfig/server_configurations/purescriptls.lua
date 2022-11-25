@@ -11,7 +11,7 @@ return {
   default_config = {
     cmd = cmd,
     filetypes = { 'purescript' },
-    root_dir = util.root_pattern('bower.json', 'psc-package.json', 'spago.dhall', 'flake.nix', 'shell.nix'),
+    root_dir = util.root_pattern('flake.nix', 'shell.nix'),
   },
   docs = {
     description = [[
